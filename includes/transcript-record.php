@@ -3,12 +3,12 @@
     <?php echo htmlspecialchars($course); ?>
   </td>
   <td>
-    <!-- TODO: term -->
+    <?php echo htmlspecialchars($term); ?>
   </td>
   <td>
-    <!-- TODO: year -->
+    <?php echo htmlspecialchars($year); ?>
   </td>
   <td class="text-center min">
-    <!-- TODO: grade -->
+    <?php echo htmlspecialchars($grade); ?>
   </td>
 </tr>
